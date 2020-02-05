@@ -1,0 +1,65 @@
+.navbar-brand{
+	color: white;
+	font-family: 'Dr Sugiyama', cursive;
+	font-size: 20px;
+  top: 2vh;
+  left: 2vh;
+}
+
+.navbar{
+	position: fixed;
+  top:0px;
+  left:0px;
+  height: 8vh;
+  width: 100%;
+}
+
+.form-inline{
+  position:fixed;
+  top:1.5vh;
+  left:20%;
+}
+
+.Usericon{
+  position:fixed;
+  top:1vh;
+  left:90%;
+  width: auto;
+}
+
+.Logout{
+position:absolute;
+  top:1.5vh;
+  left:90%;
+  width: auto;
+}
+
+.ArtifactList{
+	position:absolute;
+	top:8vh;
+	background: #2E4158;
+	overflow: auto;
+}
+
+.FilterPool{
+	position:fixed;
+	display: center;
+	top:20vh;
+	left:80%;
+}
+
+.home{
+	background: #66DAC7;
+	overflow: auto;
+	display: center;
+	background-repeat: repeat;
+	background-size: cover;
+}
+
+.body {
+  background-color: #66DAC7;
+}
+
+.container {
+  background: #2E4158;
+}

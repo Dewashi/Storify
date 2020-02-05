@@ -1,0 +1,60 @@
+{
+  "name": "odins-army",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": "v10.15.3"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "bcryptjs": "^2.4.3",
+    "bootstrap": "^4.3.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "mdbreact": "^4.21.1",
+    "mkdirp": "^0.5.1",
+    "mongodb": "^3.3.2",
+    "mongoose": "^5.7.1",
+    "nodemon": "^1.19.2",
+    "prop-types": "^15.7.2",
+    "react": "^16.9.0",
+    "react-bootstrap": "^1.0.0-beta.12",
+    "react-dom": "^16.9.0",
+    "react-native": "^0.60.5",
+    "react-native-gesture-handler": "^1.4.1",
+    "react-navigation": "^4.0.0",
+    "react-photo-gallery": "^8.0.0",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "^3.1.1",
+    "react-scrollbars-custom": "^4.0.21",
+    "react-text-truncate": "^0.15.0",
+    "react-user-profile": "^1.0.3",
+    "reactstrap": "^8.0.1",
+    "styled-components": "^4.3.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "css-loader": "^3.2.0"
+  }
+}

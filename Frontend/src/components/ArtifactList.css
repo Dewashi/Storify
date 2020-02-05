@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #2E4158;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+  background: #2E4158;
+  overflow: auto;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  background: #2E4158;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #2E4158;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    background: #2E4158;
+  }
+}
+
+.container {
+  display: flex;
+  align-items: flex;
+  justify-content: flex;
+  overflow: auto;
+  height: 100vh;
+  background: #faf282;
+}
+
+.ArtifactList {
+  display: auto;
+  align-items: flex;
+  justify-content: flex;
+  overflow: auto;
+  height: 100vh;
+  background: #faf282;
+}
+
+.Usericon{
+    background: transparent;
+    position: sticky;
+    top:1.5vh;
+    right:90%;
+}
+
+.Logout{
+    background: transparent;
+    position: sticky;
+    top:1.5vh;
+    right:90%;
+}
+
+.search-button{
+  position: relative;
+  background-color: #2E4158;
+  color: #66DAC7;
+  border-radius: 4px;
+  border-color: #2E4158;
+  box-shadow: 0 .25rem .25rem rgba(0,0,0,0.2),
+    0 0 1rem rgba(0,0,0,0.2);
+}

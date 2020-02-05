@@ -1,0 +1,173 @@
+.Profile {
+  height: 100vh;
+  display: flex;
+  background-color: #faf282;
+}
+
+
+.navbar-brand
+{
+	color: white;
+	font-family: 'Dr Sugiyama', cursive;
+	font-size: 20px;
+  top: 15px;
+  left: 20px;
+}
+
+.navbar{
+	background-color: #2E4158;
+	position: fixed;
+  top:0px;
+  left:0px;
+  height: 8vh;
+  width: 100%;
+  z-index: 1;
+}
+
+.Profile__Aside {
+  width: 20%;
+  background-color: #3a5678;
+  height: 95vh;
+}
+
+.UserAvatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.overlayContainer {
+    position: absolute;
+    top: 15vh;
+    left: 8vh;
+}
+
+.overlayText {
+    position: absolute;
+    text-align: center;
+    padding: 5px;
+    padding-bottom: 10px;
+    top: 50%;
+    left: 30%;
+    border: 1px solid DarkGrey;
+    border-radius: 5px;
+    background-color: rgba(1,1,1,0.5);
+    color: white;
+    opacity: 0;
+}
+
+.overlayContainer:hover .overlayText {
+    opacity: 1;
+}
+
+.overlayContainer:hover .UserAvatar {
+    opacity: 0.3;
+}
+
+.Profile_paint{
+  position: absolute;
+  width:20%;
+  z-index: 0;
+  top:70vh;
+  left:10px;
+}
+
+.Profile__Details{
+  width: 80%;
+  height: 95vh;
+  background-color: #66DAC7;
+  padding: 80px 40px;
+  overflow:auto;
+}
+
+.Artifact__Form{
+  width: 80%;
+  position:absolute;
+  top:8vh;
+  left:20%;
+}
+
+.ForwardNavigator{
+  background-color: #4C5D72;
+  color: #9DA6B1;
+  padding: 10px 25px;
+  cursor: pointer;
+  font-size: .9em;
+  border: none;
+  outline: none;
+  display: inline-block;
+  text-decoration: none;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  z-index: 0;
+  position: absolute;
+  left: 50px;
+  top: 370px;
+}
+
+.ForwardNavigator__Active{
+  background-color: #5ED0C0;
+  color: white;
+}
+
+.BackNavigator{
+  background-color: #4C5D72;
+  color: #9DA6B1;
+  padding: 10px 25px;
+  cursor: pointer;
+  font-size: .9em;
+  border: none;
+  outline: none;
+  display: inline-block;
+  text-decoration: none;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  z-index: 0;
+  position: absolute;
+  left: 50px;
+  top: 300px;
+}
+
+.BackNavigator__Active{
+  background-color: #faf282;
+  color: #2E4158;
+}
+.UserInfo{
+  font-size: .9em;
+  z-index: -1;
+  color: #faf282;
+}
+
+.userPage{
+  color: #2E4158;
+  display: auto;
+  padding: 15px; 
+  width:auto;
+  align-items: center;
+  justify-content: center;
+  position: relative;        
+  background: #faf282;
+  font-size: 26px;
+  border-radius: 10px;
+  box-shadow: 0 .25rem .25rem rgba(0,0,0,0.2),
+    0 0 1rem rgba(0,0,0,0.2);
+}
+
+.user{
+  color: #faf282;
+  display: auto;
+  align-items: center;
+  justify-content: center;
+  position: relative;        
+  background: #2E4158;
+  overflow: auto;
+  font-size: 16px;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 .25rem .25rem rgba(0,0,0,0.2),
+    0 0 1rem rgba(0,0,0,0.2);
+}

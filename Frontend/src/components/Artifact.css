@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  line-height: 1.5;
+  font-family: 'Open Sans', sans-serif;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #faf282;
+  overflow: auto;
+  font-size: 16px
+}
+
+.card {
+  position: flex;
+  background: #2E4158;
+  width: 400px;
+  height: 80vh;
+  border-radius: 6px;
+  padding: 2rem;
+  color: #faf282;
+  box-shadow: 0 .25rem .25rem rgba(0,0,0,0.2),
+    0 0 1rem rgba(0,0,0,0.2);
+  background: #2E4158;
+}
+
+.card__title{
+    background: #2E4158;
+    color: #66DAC7;
+    margin-top: 0;
+    font-size: 24px;
+}
+
+.card-text{
+    margin-top: 0;
+    font-size: 16px;
+    background: #2E4158;
+}
+
+.card__image-container{
+    background: #2E4158;
+}
+
+.card__svg{
+    background: #2E4158;
+}
+
+.card__content{
+    background: #2E4158;
+}
+
+.card-space1{
+    background: #2E4158;
+}
+
+.card-space3{
+    background: #2E4158;
+}
+
+.card-space2{
+    background: #2E4158;
+    font-size: 14px;
+}
+
+
+.FilterPool{
+	position:fixed;
+	display: center;
+	top:20vh;
+	left:80%;
+}

@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+.filter-container{
+  width: 20vh;
+  display: center;
+  border-radius: 6px;
+  box-shadow: 0 .25rem .25rem rgba(0,0,0,0.2),
+    0 0 1rem rgba(0,0,0,0.2);
+}
+
+.button {
+  background-color: #2E4158; /* Green */
+  border: none;
+  color: #66DAC7;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  display: block;
+  border-spacing: inherit;
+}
+
+.button:hover {
+  background-color: #2E4158; /* Green */
+  color: #faf282;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  opacity: 1;
+
+}
+
+.button:focus {
+    border-color: none;
+    color: #66DAC7;
+}
+
+.button:active {
+    border-color: none;
+    color: #66DAC7;
+}
+
+
+.filter-container{
+    background-color: #2E4158;
+    border-radius: 6px;
+    color: #66DAC7;
+    text-align: center;
+
+}

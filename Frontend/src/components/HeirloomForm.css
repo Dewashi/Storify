@@ -1,0 +1,30 @@
+.HeirloomForm{
+  display: flex;
+  justify-content: center;
+	background-color: #faf282;
+	color: #2E4158;
+  border-radius: 4px;
+  box-shadow: 0 .25rem .25rem rgba(0,0,0,0.2),
+    0 0 1rem rgba(0,0,0,0.2);
+  width: 70vh;
+}
+
+.form-group-forTitle{
+	padding-top: 20px;
+	color: #faf282;
+}
+
+.form-group-forButton{
+		padding-bottom: 50px;
+		color: #faf282;
+}
+
+.submit-button{
+  position: relative;
+  background-color: #2E4158;
+  color: #faf282;
+  border-radius: 4px;
+  border-color: #2E4158;
+  box-shadow: 0 .25rem .25rem rgba(0,0,0,0.2),
+    0 0 1rem rgba(0,0,0,0.2);
+}

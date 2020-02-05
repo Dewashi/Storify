@@ -1,0 +1,44 @@
+.EditArtifact{
+  background-color: #faf282;
+  color: #2E4158;
+  border-radius: 4px;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-group{
+  padding-top: 20px;
+  color: #2E4158;
+}
+
+.form-group-forButton{
+    padding-bottom: 50px;
+    color: #faf282;
+}
+
+.submit-button{
+  position: relative;
+  background-color: #2E4158;
+  color: #66DAC7;
+  border-radius: 4px;
+  border-color: #2E4158;
+  box-shadow: 0 .25rem .25rem rgba(0,0,0,0.2),
+    0 0 1rem rgba(0,0,0,0.2);
+}
+
+.row{
+  padding-top: 20px;
+  color: #faf282;
+}
+
+.edit-button{
+  position: relative;
+  background-color: #2E4158;
+  color: #66DAC7;
+  border-radius: 4px;
+  border-color: #2E4158;
+  box-shadow: 0 .25rem .25rem rgba(0,0,0,0.2),
+    0 0 1rem rgba(0,0,0,0.2);
+}
